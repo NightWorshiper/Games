@@ -2,7 +2,7 @@ from turtle import *
 state = {'turn': 0}
 def spinner():
     clear()
-    angle = state['turn']/10
+    angle = state['turn']/15
     right(angle)
     forward(100)
     dot(120, 'red')
