@@ -25,7 +25,7 @@ def animate():
 def flick():
     state['turn']+=10
 
-setup(420, 420, 370, 0)
+setup(420, 420, 360, 0)
 hideturtle()
 tracer(False)
 width(20)
